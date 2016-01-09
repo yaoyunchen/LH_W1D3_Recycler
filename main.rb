@@ -13,7 +13,7 @@ while store_open
   case input
     when '1'
       puts :"How much would you like to spend?"
-      calc_investment(get_int)
+      calc_investment_with_recursion(get_int)
       
       puts calculation_results
     when '2'
